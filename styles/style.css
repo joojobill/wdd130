@@ -10,8 +10,12 @@ aside {
     color: white;
     text-align: center;
 }
-aside image {
+aside img {
     width: 200px;
+    height: auto;
+}
+main img {
+    width: 150px;
     height: auto;
 }
 p { padding: 0;}
