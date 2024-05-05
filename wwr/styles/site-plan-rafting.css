@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #A2D2FF;
+    --secondary-color: #BDE0FE;
+    --accent1-color: #FFAFCC;
+    --accent2-color: #FFC8DD;
+    
+  --heading-font:'Josefin sans', serif;
+  --paragraph-font: 'playfair Display', serif;
+
+  --nav-background-color:var(--secondary-color);
+  --nav-link-color:var(--accent2-color);
+  --nav-hover-link-color:var(--accent1-color);
+  --nav-hover-background-color:var(--secondary-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3 ,h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+p {
+    padding: 20px;
+}
+nav {
+    background-color: var(--secondary-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--primary-color);
+    text-decoration:none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--accent2-color);
+  }
+  
+  nav a:hover {
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+  }
