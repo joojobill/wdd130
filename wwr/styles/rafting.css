@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
+:root {
+    --primary-color: #007bff; /* Primary color */
+    --secondary-color: #6c757d; /* Secondary color */
+    --background-color: #f8f9fa; /* Background color */
+    --text-color: #343a40; /* Text color */
+    --accent-color: #ffc107; /* Accent color */
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+p {
+    color: var(--text-color);
+}
+.sociallinks {
+    text-decoration: none;
+}
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0%;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    color: white;
+}
+.article {
+    position: absolute;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.hero article p {
+    margin-bottom: 10px;
+}
+.hero article img {
+    float: right; /* Float the image to the right */
+    margin-left: 10px; 
+    }
