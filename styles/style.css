@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* Class Selectors */
-
 .box {
     margin: 1rem;
     border: 1px solid blue;
@@ -19,11 +17,9 @@ main {
 
 aside {
     width: 20rem;
-
     text-align: center;
     position: relative;
 }
-
 aside h2 {
     position: absolute;
     top: 47px;
