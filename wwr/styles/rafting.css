@@ -99,12 +99,12 @@ nav {
     color: navy;
     padding: 20px;
     text-decoration: none;
-    font-size: l;
+    font-size: larger;
 
 }
 .navigation a:hover {
     color: tomato;
-    font-weight: 700px;
+    font-weight: 600;
 
 }
 .adventures {
