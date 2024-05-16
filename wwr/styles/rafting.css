@@ -22,6 +22,7 @@ body {
 }
 .hero {
     position: relative;
+    text-align: start;
 }
 .hero img {
     display: block;
@@ -29,8 +30,8 @@ body {
     height: auto;
 }
 .hero h1 {
-    position: absolute;
     color: white;
+    text-align: center;
 }
 .article {
     position: absolute;
@@ -45,4 +46,102 @@ body {
 .hero article img {
     float: right; /* Float the image to the right */
     margin-left: 10px; 
-    }
+}
+footer img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+header {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 350px;
+    height: auto;
+}
+
+img {
+    margin: 0 0.25rem 0 1rem;
+    width: 200px;
+    height: auto;
+}
+h1 {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
+}
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
+
+}
+
+nav { 
+    text-align: right;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+}
+.navigation li {
+    flex: 1 1 100%;
+}
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: l;
+
+}
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700px;
+
+}
+.adventures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+  
+.adventures img {
+    max-width: 200px;
+    max-height: 100px;
+  }
+  
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  .history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+.history img {
+    width: 400px;
+    height: 300px;
+
+}
