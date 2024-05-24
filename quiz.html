@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width initial-scale">
         <title> HTML and CSS Quiz</title>
+        <meta name="description" content="HTML and CSS Quiz">
+        <meta name="author" content="Isaac Hooper">
         <link rel="stylesheet" href="styles/quiz.css">
     </head>
 <body>
@@ -18,8 +20,17 @@
             <textarea id="q2" name="q2" required></textarea>
         </div>
         <div>
-            <label for="q3">How many levels of headings are available in HTML?</label><br>
-            <input type="number" id="q4" name="q4" required>
+            <label for="q3">Which of the following is not a valid HTML tag?</label><br>
+            <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One ...</option>
+            <option value="div">div</option>
+            <option value="span">span</option>
+            <option value="header">header</option>
+            </select>
+        </div>
+        <div>
+            <label for="q4">How many levels of headings are available in HTML?</label><br>
+                <input type="number" id="q4" name="q4" required>
         </div>
         <button type="submit">Submit Quiz</button>
 </form>
