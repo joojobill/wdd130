@@ -67,11 +67,6 @@ header img {
     height: auto;
 }
 
-img {
-    margin: 0 0.25rem 0 1rem;
-    width: 200px;
-    height: auto;
-}
 h1 {
     font-size: 2rem;
     font-family: Acme, Arial, sans-serif;
@@ -109,8 +104,7 @@ nav {
 }
 .adventures {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-between;
 }
 figure {
     border: thin #c0c0c0 solid;
@@ -123,7 +117,7 @@ figure {
   
 .adventures img {
     max-width: 200px;
-    max-height: 100px;
+    height:auto ;
   }
   
 figcaption {
@@ -144,4 +138,67 @@ figcaption {
     width: 400px;
     height: 300px;
 
+}
+.employer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+.employer img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.radio-group {
+    margin-bottom: 10px;
+}
+.radio-group label {
+    font-weight: normal;
+    display: inline-block;
+    margin-right: 20px;
+}
+.radio-group input {
+    margin-right: 5px;
+}
+.checkbox-group {
+    margin-bottom: 10px;
+}
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #0056b3;
 }
