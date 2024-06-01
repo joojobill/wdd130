@@ -49,7 +49,7 @@ body {
 }
 footer img {
     margin: 0 0.25rem 0 1rem;
-    width: 64px;
+    width: 40px;
     height: auto;
 }
 header {
@@ -202,3 +202,153 @@ textarea {
 .submit-button:hover {
     background-color: #0056b3;
 }
+/* General Styles */
+
+.heros {
+    background: white;
+    color: #fff;
+    padding: 5em 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    background: #28a745;
+    color: #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-content {
+    display: flex;
+    padding: 2em;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    padding: 1em;
+}
+.trip-descriptions {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+    flex-wrap: wrap;
+}
+
+.trip-descriptions article {
+    flex: 1 1 calc(33.333% - 1em);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.trip-descriptions img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trips-table {
+    padding: 2em;
+}
+
+.trips-table h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.trips-table th, 
+.trips-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.trips-table th {
+    background-color: #f2f2f2;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 2em;
+    background: #f4f4f4;
+}
+
+.newsletter h2 {
+    margin-bottom: 1em;
+}
+
+.newsletter form {
+    display: inline-block;
+    text-align: left;
+}
+
+.newsletter input[type="text"]
+.newsletter input[type="email"] {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+.newsletter button {
+    background: #28a745;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+    padding: 2em;
+}
+
+.grid-item {
+    background: #fff;
+    padding: 1em;cf 
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 1em 0;
+    background: #333;
+    color: #fff;
+}
+
+footer p {
+    text-align: left;
+    
+
+}
+
